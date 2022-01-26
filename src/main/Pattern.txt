@@ -1,0 +1,2 @@
+Les patterns utiliser sont le singleton pour pac man ain de s'assusser de l'unicité de pacman
+Ainsi que factory pour gerer l'instantiaction des types de pac boost 

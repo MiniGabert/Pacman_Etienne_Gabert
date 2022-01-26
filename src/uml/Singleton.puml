@@ -1,0 +1,15 @@
+@startuml Pacman
+
+class Pacman
+class Labyrinthe 
+interface IpacGomme 
+class PacGomme
+class PacGommeBoost
+class FactoryPacGomme
+
+IpacGomme <|-- PacGomme
+IpacGomme <|-- PacGommeBoost
+
+FactoryPacGomme <.. Labyrinthe : use
+Pacman <.. Labyrinthe : use
+@enduml
